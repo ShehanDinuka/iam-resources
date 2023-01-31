@@ -623,6 +623,7 @@ When using the WSO2 identity server with more than one node, it&#39;s recommende
 'hazelcast.master.confirmation.interval.seconds'="5"
 'hazelcast.max.no.heartbeat.seconds'="20"
 'hazelcast.max.no.master.confirmation.seconds'="30"
+'hazelcast.logging.type'= "log4j2"
 ```
 
 WSO2 supports the following membership schemes for clustering - well-known address (WKA) - Multicast membership - AWS membership - AWS ECS membership - Kubernetes membership. Please refer to the [documentation](https://is.docs.wso2.com/en/latest/setup/deployment-guide/#clustering-related-configurations) for more details
